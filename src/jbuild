@@ -1,9 +1,8 @@
 (library
  ((name ppxlib)
   (public_name ppxlib)
-  (libraries (ocaml-compiler-libs.common
-              compiler-libs.common
-              ocaml-compiler-libs.shadow
+  (libraries (compiler-libs.common
+              compiler-libs.shadow
               ocaml-migrate-parsetree
               ppxlib_ast
               base
